@@ -35,7 +35,7 @@ const animalsData = {
         subType: [
           {
             id: 4,
-            name: "bonobo",
+            name: "bonobo2",
             description:
               "a small, intelligent African ape with black or brown fur, similar to a chimpanzee",
             link: "Merriam-Webster",
