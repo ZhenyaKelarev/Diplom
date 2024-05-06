@@ -66,7 +66,7 @@ const AnimalType = () => {
           <div className="h-full overflow-scroll pb-14 w-full ">
             {tabsContent?.map((content, index) => (
               <TabsContent
-                className="flex flex-col gap-5 m-0 w-2/4"
+                className="flex flex-col gap-5 m-0 w-full"
                 value={`${tabs[index]}`}
               >
                 {content?.map((animal) => {

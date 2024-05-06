@@ -12,8 +12,8 @@ const AnimalDialog = ({ animalData, type }) => {
     <Dialog>
       <DialogTrigger
         className={`${
-          type === "type" ? "bg-green-900" : "bg-green-600"
-        } p-5 rounded-3xl text-white w-2/4`}
+          type === "type" ? "bg-green-900 w-2/4" : "bg-green-600"
+        } p-5 rounded-3xl text-white `}
       >
         {animalData.name}
       </DialogTrigger>
