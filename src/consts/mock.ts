@@ -1546,16 +1546,106 @@ const animalsData = {
         image:
           "https://i.pinimg.com/564x/34/cf/7d/34cf7df60e84a303c137d73ef7adfa34.jpg",
       },
+      {
+        id: 8,
+        name: "cobra",
+        description:
+          "a poisonous snake from Africa and southern Asia that makes itself look bigger and more threatening by spreading the skin at the back of its head",
+        link: "Cambridge Dictionary",
+        image:
+          "https://i.pinimg.com/564x/9f/26/77/9f2677c43e2312febee9a8620de4d0ea.jpg",
+      },
+      {
+        id: 9,
+        name: "coral snake",
+        description:
+          "brightly coloured poisonous snake, often with bands of red, yellow, white and black",
+        link: "Oxford Dictionary",
+        image:
+          "https://i.pinimg.com/564x/e9/00/8b/e9008b2c8adeebac9dfb93418c2798d1.jpg",
+      },
+      {
+        id: 10,
+        name: "file snake",
+        description:
+          "any of several large harmless African colubrid snakes  that have a steeply ridged back making them resemble a 3-cornered file",
+        link: "Merriam-Webster",
+        image:
+          "https://i.pinimg.com/564x/e6/d6/64/e6d664eb67072ca33211bccc9b4be974.jpg",
+      },
+      {
+        id: 11,
+        name: "flying snake",
+        description:
+          "a brilliant gold-and-black tree snake  that is able to leap clear of the ground when striking and often planes from tree to tree in the manner of a flying squirrel for distances as great as eight feet",
+        link: "Merriam-Webster",
+        image:
+          "https://i.pinimg.com/564x/fd/30/8a/fd308acf59aab8da3d93d4f0a4e0a31d.jpg",
+      },
+      {
+        id: 12,
+        name: "flying snake",
+        description:
+          "a brilliant gold-and-black tree snake  that is able to leap clear of the ground when striking and often planes from tree to tree in the manner of a flying squirrel for distances as great as eight feet",
+        link: "Merriam-Webster",
+        image:
+          "https://i.pinimg.com/564x/fd/30/8a/fd308acf59aab8da3d93d4f0a4e0a31d.jpg",
+      },
     ],
     turtles: [
       {
         id: 20,
         name: "Blanding's turtle",
         description:
-          " freshwater turtle of the northeastern U.S. and Canada having a black or dark olive shell with small yellow spots",
+          "freshwater turtle of the northeastern U.S. and Canada having a black or dark olive shell with small yellow spots",
         link: "Merriam-Webster",
         image:
           "https://i.pinimg.com/564x/f8/82/26/f88226afdc74a430683522b86dfdd61e.jpg",
+      },
+      {
+        id: 21,
+        name: "chicken turtle",
+        description:
+          "small or medium-sized edible aquatic turtle of the southern Atlantic states having a long snakelike neck and an elongated carapace marked with a network of yellow lines",
+        link: "Merriam-Webster",
+        image:
+          "https://i.pinimg.com/564x/14/16/90/1416909262b6f6dec94e367558e2bdb3.jpg",
+      },
+      {
+        id: 22,
+        name: "mud turtle",
+        description:
+          "American bottom-dwelling freshwater turtles with two transverse hinges on the plastron",
+        link: "Merriam-Webster",
+        image:
+          "https://i.pinimg.com/564x/83/fa/61/83fa612011dc6ca1d82d4038bf3cb323.jpg",
+      },
+      {
+        id: 23,
+        name: "sea turtle",
+        description:
+          "marine turtles that have the feet modified into paddles and that include the green turtle, leatherback, hawksbill, loggerhead, and ridley",
+        link: "Merriam-Webster",
+        image:
+          "https://i.pinimg.com/564x/b1/07/18/b10718c90d6b32174327c4b6f6ad358e.jpg",
+      },
+      {
+        id: 24,
+        name: "snapping turtles",
+        description:
+          "a large American turtle with powerful jaws",
+        link: "Oxford Dictionary",
+        image:
+          "https://i.pinimg.com/736x/9a/41/b9/9a41b92877e880022d10385b591bd756.jpg",
+      },
+      {
+        id: 25,
+        name: "terrapin",
+        description:
+          "a type of small North American turtle that lives in warm rivers and lakes",
+        link: "Cambridge Dictionary",
+        image:
+          "https://i.pinimg.com/564x/9d/98/99/9d9899121e1d6c39e5d45a754478357a.jpg",
       },
     ],
     crocodile: [
@@ -1576,6 +1666,33 @@ const animalsData = {
         link: "Merriam-Webster",
         image:
           "https://i.pinimg.com/564x/6f/43/ba/6f43ba0c0faac33066eb63475329dd5f.jpg",
+      },
+      {
+        id: 28,
+        name: "Nile crocodile",
+        description:
+          "a widely distributed and dangerous African crocodile ",
+        link: "Merriam-Webster",
+        image:
+          "https://i.pinimg.com/564x/97/4f/e1/974fe1771c0be12d72812af0ccecd30f.jpg",
+      },
+      {
+        id: 29,
+        name: "Orinoco crocodile",
+        description:
+          "a ferocious narrow-snouted crocodile  of the Orinoco river and drainage basin",
+        link: "Merriam-Webster",
+        image:
+          "https://i.pinimg.com/564x/3d/46/71/3d467169679406ba33f1658992444804.jpg",
+      },
+      {
+        id: 30,
+        name: "saltwater crocodile",
+        description:
+          "a large crocodile of East Asia and Indonesia that is a saltwater or brackish water species common about the outlets of rivers but also encountered far from land, that in the male may attain a length of six to seven meters, and that has been known to attack humans",
+        link: "Merriam-Webster",
+        image:
+          "https://i.pinimg.com/564x/d5/1e/e6/d51ee6967f9eb896a8853501d3a467f2.jpg",
       },
     ],
     alligator: [
@@ -1607,6 +1724,96 @@ const animalsData = {
         link: "Merriam-Webster",
         image:
           "https://i.pinimg.com/564x/8c/c2/e0/8cc2e072f02fbb9d12f9e9243a559a5c.jpg",
+      },
+      {
+        id: 34,
+        name: "chameleon",
+        description:
+          "a small lizard (= a type of reptile) that can change colour according to what is around or near it",
+        link: "Oxford Dictionary",
+        image:
+          "https://i.pinimg.com/564x/b6/2f/a1/b62fa112f0d23f73ab4d891c8f25033c.jpg",
+      },
+      {
+        id: 35,
+        name: "iguana",
+        description:
+          "a large greyish-green lizard of tropical America",
+        link: "Cambridge Dictionary",
+        image:
+          "https://i.pinimg.com/564x/56/75/a3/5675a3e792d789b40bb3a39a84b52180.jpg",
+      },
+      {
+        id: 36,
+        name: "gecko",
+        description:
+          "a small lizard (= a type of reptile) that lives in warm countries",
+        link: "Oxford Dictionary",
+        image:
+          "https://i.pinimg.com/564x/cb/99/a2/cb99a2dfd835762a8b68429b5be40ab5.jpg",
+      },
+      {
+        id: 37,
+        name: "gila monster",
+        description:
+          "a large, stout, venomous lizard that has rough, bumpy, black and orange, pinkish, or yellowish skin, a thick tail, and venom glands in the lower lip and that is found especially in arid regions of the southwestern U.S. and northwestern Mexico",
+        link: "Merriam-Webster",
+        image:
+          "https://i.pinimg.com/564x/0b/5b/8a/0b5b8aa41e279e35e7b380c217173512.jpg",
+      },
+      {
+        id: 38,
+        name: "goanna",
+        description:
+          "a type of large lizard that is common in Australia",
+        link: "Cambridge Dictionary",
+        image:
+          "https://i.pinimg.com/564x/92/7e/70/927e70b93e2434f58a07ac7954c70e46.jpg",
+      },
+      {
+        id: 39,
+        name: "horned toad",
+        description:
+          "any of several small harmless insectivorous lizards  of the western U.S. and Mexico that resemble toads and have hornlike spines",
+        link: "Merriam-Webster",
+        image:
+          "https://i.pinimg.com/564x/41/c0/19/41c01981270257fc33e9d90fd8ac9e77.jpg",
+      },
+      {
+        id: 40,
+        name: "Komodo dragon",
+        description:
+          "a very large lizard from Indonesia",
+        link: "Oxford Dictionary",
+        image:
+          "https://i.pinimg.com/564x/e1/fb/fa/e1fbfa06155ef07e85d12ab3eb68bb1a.jpg",
+      },
+      {
+        id: 41,
+        name: "skink",
+        description:
+          "a small lizard found in various hot parts of the world",
+        link: "Cambridge Dictionary",
+        image:
+          "https://i.pinimg.com/564x/0d/9f/6d/0d9f6d08aa22a4c606bd855776759678.jpg",
+      },
+      {
+        id: 42,
+        name: "water monitor",
+        description:
+          "a very large lizard of India that frequents the borders of streams, swims actively, and may become five or six feet long",
+        link: "Merriam-Webster",
+        image:
+          "https://i.pinimg.com/564x/a2/36/e8/a236e8d43b0eb37f568d43ba6ab703d2.jpg",
+      },
+      {
+        id: 43,
+        name: "wall lizard",
+        description:
+          "a very large lizard of India that frequents the borders of streams, swims actively, and may become five or six feet long",
+        link: "Merriam-Webster",
+        image:
+          "https://i.pinimg.com/564x/45/65/54/456554c7e54e5ef9c1831949a0ba953e.jpg",
       },
     ],
   },

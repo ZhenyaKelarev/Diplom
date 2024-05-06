@@ -30,6 +30,7 @@ const AnimalType = () => {
       className={`w-full
     h-100vhCalc
     p-5
+    pr-0
     relative
     overflow-hidden
     block
@@ -56,7 +57,7 @@ const AnimalType = () => {
           value={tab}
           onValueChange={onTabChange}
           defaultValue={tabs[0]}
-          className="w-6/12 h-full"
+          className="h-full"
         >
           <TabsList className=" mb-5">
             {tabs?.map((tab) => (
