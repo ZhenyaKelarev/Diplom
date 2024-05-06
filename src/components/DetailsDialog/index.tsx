@@ -8,13 +8,12 @@ import {
 } from "@/components/ui/dialog"
 
 const AnimalDialog = ({ animalData, type }) => {
-  console.log("animalData.image", animalData.image)
   return (
     <Dialog>
       <DialogTrigger
         className={`${
           type === "type" ? "bg-green-900" : "bg-green-600"
-        } p-5 rounded-3xl text-white`}
+        } p-5 rounded-3xl text-white w-2/4`}
       >
         {animalData.name}
       </DialogTrigger>
@@ -23,6 +22,7 @@ const AnimalDialog = ({ animalData, type }) => {
           <img
             className="w-full h-full object-cover"
             src={animalData.image}
+            loading="lazy"
             alt="animal"
           />
         </div>
