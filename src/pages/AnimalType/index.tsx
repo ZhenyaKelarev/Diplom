@@ -28,7 +28,7 @@ const AnimalType = () => {
     <div
       style={{ "--image-url": `url('/src/assets/${bgImage}.jpg')` }}
       className={`w-full
-   h-100vhCalc
+    h-100vhCalc
     p-5
     relative
     overflow-hidden
@@ -49,42 +49,49 @@ const AnimalType = () => {
     before:opacity-50
     before:z-[-5]`}
     >
-      <h1 className="text-white">Animal Type: {params.id}</h1>
+      <div className="h-full">
+        <h1 className="text-white">Animal Type: {params.id}</h1>
 
-      <Tabs
-        value={tab}
-        onValueChange={onTabChange}
-        defaultValue={tabs[0]}
-        className="w-6/12"
-      >
-        <TabsList className=" mb-5">
-          {tabs?.map((tab) => (
-            <TabsTrigger value={`${tab}`}>{tab}</TabsTrigger>
-          ))}
-        </TabsList>
-        {tabsContent?.map((content, index) => (
-          <TabsContent
-            className="flex flex-col gap-5 m-0"
-            value={`${tabs[index]}`}
-          >
-            {content?.map((animal) => {
-              return (
-                <>
-                  <AnimalDialog type="type" animalData={animal} />
-                  <div className="flex gap-5 flex-wrap">
-                    {animal?.subType &&
-                      animal?.subType.map((subtype) => {
-                        return (
-                          <AnimalDialog type="subType" animalData={subtype} />
-                        )
-                      })}
-                  </div>
-                </>
-              )
-            })}
-          </TabsContent>
-        ))}
-      </Tabs>
+        <Tabs
+          value={tab}
+          onValueChange={onTabChange}
+          defaultValue={tabs[0]}
+          className="w-6/12 h-full"
+        >
+          <TabsList className=" mb-5">
+            {tabs?.map((tab) => (
+              <TabsTrigger value={`${tab}`}>{tab}</TabsTrigger>
+            ))}
+          </TabsList>
+          <div className="h-full overflow-scroll pb-14">
+            {tabsContent?.map((content, index) => (
+              <TabsContent
+                className="flex flex-col gap-5 m-0"
+                value={`${tabs[index]}`}
+              >
+                {content?.map((animal) => {
+                  return (
+                    <>
+                      <AnimalDialog type="type" animalData={animal} />
+                      <div className="flex gap-5 flex-wrap">
+                        {animal?.subType &&
+                          animal?.subType.map((subtype) => {
+                            return (
+                              <AnimalDialog
+                                type="subType"
+                                animalData={subtype}
+                              />
+                            )
+                          })}
+                      </div>
+                    </>
+                  )
+                })}
+              </TabsContent>
+            ))}
+          </div>
+        </Tabs>
+      </div>
     </div>
   )
 }
