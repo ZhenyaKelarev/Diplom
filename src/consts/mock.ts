@@ -172,7 +172,7 @@ const animalsData = {
           "any of several grayish burrowing southern African rodents of Bathyergus and related genera that are very destructive to root crops",
         link: "Merriam-Webster",
         image:
-          "https://animals.net/wp-content/uploads/2019/09/Agouti-5-650x425.jpg",
+          "https://i.pinimg.com/564x/16/9d/c3/169dc3b0da92f96bb86ddf7888bc8978.jpg",
       },
       {
         id: 4,
@@ -1060,92 +1060,586 @@ const animalsData = {
     ],
   },
   Fish: {
-    river: [
+    cartilaginous: [
       {
         id: 1,
-        name: "Окунь",
+        name: "chimaera",
         description:
-          "any of a genus of tropical American rodents about the size of a rabbit",
+          "marine cartilaginous fishes with a tapering or threadlike tail and usually no anal fin",
         link: "Merriam-Webster",
         image:
-          "https://animals.net/wp-content/uploads/2019/09/Agouti-5-650x425.jpg",
+          "https://i.pinimg.com/564x/e0/17/4f/e0174f02d83cef2e82e4c0f57688aae0.jpg",
       },
       {
         id: 2,
-        name: "Karas",
+        name: "ray",
         description:
-          "any of a genus of tropical American rodents about the size of a rabbit",
+          "usually marine cartilaginous fishes  having the body flattened dorsoventrally, the eyes on the upper surface, and enlarged pectoral fins fused with the head",
         link: "Merriam-Webster",
         image:
-          "https://animals.net/wp-content/uploads/2019/09/Agouti-5-650x425.jpg",
+          "https://i.pinimg.com/564x/18/6a/6c/186a6c09186b3aa35ff115e2526be06e.jpg",
       },
-    ],
-    ocean: [
       {
-        id: 1,
+        id: 3,
         name: "shark",
         description:
-          "any of a genus of tropical American rodents about the size of a rabbit",
+          "mostly marine cartilaginous fishes of medium to large size that have a fusiform body, lateral branchial clefts, and a tough usually dull gray skin roughened by minute tubercles and are typically active predators sometimes dangerous to humans",
         link: "Merriam-Webster",
         image:
-          "https://animals.net/wp-content/uploads/2019/09/Agouti-5-650x425.jpg",
+          "https://i.pinimg.com/564x/f6/eb/1b/f6eb1b0e8059bfca91c5aaec83408579.jpg",
+        subType: [
+          {
+            id: 4,
+            name: "basking shark",
+            description:
+              "a large shark that swims close to the surface of the ocean",
+            link: "Oxford Dictionary",
+            image:
+              "https://i.pinimg.com/564x/eb/23/24/eb23247b3bde895a9f1d886270876102.jpg",
+          },
+          {
+            id: 5,
+            name: "blacktip shark",
+            description:
+              "a small, grayish requiem shark with black-tipped fins that is widely distributed in coastal tropical and subtropical seas",
+            link: "Merriam-Webster",
+            image:
+              "https://i.pinimg.com/564x/a6/86/e3/a686e36ea6ad64f12ee11171e5799eef.jpg",
+          },
+          {
+            id: 6,
+            name: "blue shark",
+            description:
+              "a chiefly pelagic shark that is found in all tropical and temperate seas and has been known to attack humans",
+            link: "Merriam-Webster",
+            image:
+              "https://i.pinimg.com/736x/4c/94/a5/4c94a5608f74467f0b076ed812d2c039.jpg",
+          },
+          {
+            id: 7,
+            name: "bull shark",
+            description:
+              "an aggressive requiem shark of tropical to subtropical coastal waters that has a short, blunt snout and small eyes, is tolerant of freshwater and may spend extended periods in rivers, and has been known to attack people",
+            link: "Merriam-Webster",
+            image:
+              "https://i.pinimg.com/564x/05/23/26/052326a422b4dc354e484072d20d2532.jpg",
+          },
+          {
+            id: 8,
+            name: "great white shark",
+            description:
+              "a large aggressive shark with a brown or grey back, found in warm seas",
+            link: "Oxford Dictionary",
+            image:
+              "https://i.pinimg.com/564x/8f/13/fc/8f13fcf96b829bca8a9330bded7bc825.jpg",
+          },
+          {
+            id: 9,
+            name: "hammerhead shark",
+            description:
+              "a shark with flat parts sticking out from either side of its head with eyes at the ends",
+            link: "Oxford Dictionary",
+            image:
+              "https://i.pinimg.com/564x/24/47/37/244737d56fd38e32faf010fb710d60bb.jpg",
+          },
+          {
+            id: 10,
+            name: "lemon shark",
+            description:
+              "a medium-sized requiem shark of warm usually inshore waters that is yellowish brown to gray above with yellow or greenish sides, often congregates in groups, and is usually harmless to humans but may attack if provoked",
+            link: "Merriam-Webster",
+            image:
+              "https://i.pinimg.com/736x/15/5b/8b/155b8bb3a16da34fbc026331b4786fe4.jpg",
+          },
+          {
+            id: 11,
+            name: "leopard shark",
+            description:
+              "sharks more or less mottled or blotched with black on a lighter ground",
+            link: "Merriam-Webster",
+            image:
+              "https://i.pinimg.com/564x/e0/41/f9/e041f951bd375f89f717a2613660ed15.jpg",
+          },
+          {
+            id: 12,
+            name: "mako shark",
+            description:
+              "slender mackerel sharks that are dark blue above and white below with long pointed snouts and that are notable sport fish",
+            link: "Merriam-Webster",
+            image:
+              "https://i.pinimg.com/736x/ec/9d/af/ec9daff5eec1fd967fe02470e6901506.jpg",
+          },
+          {
+            id: 13,
+            name: "nurse shark",
+            description:
+              "bottom-dwelling sharks  with barbels near the nostrils",
+            link: "Merriam-Webster",
+            image:
+              "https://i.pinimg.com/736x/c1/ae/b7/c1aeb7a88a2e255cf4cae2bfb1628eb6.jpg",
+          },
+          {
+            id: 14,
+            name: "tiger shark",
+            description:
+              "a large gray or brown stocky-bodied requiem shark that is nearly cosmopolitan especially in warm seas and can be dangerous to humans",
+            link: "Merriam-Webster",
+            image:
+              "https://i.pinimg.com/736x/b4/d0/97/b4d097eb634d3eecde3d502727fe23d6.jpg",
+          },
+          {
+            id: 15,
+            name: "whale shark",
+            description:
+              "shark of warm waters that has small teeth, feeds chiefly on plankton strained by its gill rakers, may sometimes attain a length of up to 60 feet (18.3 meters), and is the largest known fish",
+            link: "Merriam-Webster",
+            image:
+              "https://i.pinimg.com/564x/c4/42/1f/c4421f936c36e7d8f5355104c7ada319.jpg",
+          },
+        ],
+      },
+    ],
+    bony: [
+      {
+        id: 16,
+        name: "bass",
+        description:
+          "edible marine or freshwater bony fishes",
+        link: "Merriam-Webster",
+        image:
+          "https://i.pinimg.com/564x/47/a7/58/47a758fc0783c52c5075c29570e9b262.jpg",
+      },
+      {
+        id: 17,
+        name: "black cod",
+        description:
+          "a large gray to blackish bony fish of the Pacific coast that is an important food fish and has a liver rich in vitamins",
+        link: "Merriam-Webster",
+        image:
+          "https://i.pinimg.com/564x/db/71/62/db7162104760686f5f877d35112df7d0.jpg",
+      },
+      {
+        id: 18,
+        name: "butterfish",
+        description:
+          "bony fishes with a slippery coating of mucus",
+        link: "Merriam-Webster",
+        image:
+          "https://i.pinimg.com/564x/58/47/71/584771cebfbc003fa35cd5631ad4bdea.jpg",
+      },
+      {
+        id: 19,
+        name: "catfish",
+        description:
+          "chiefly freshwater stout-bodied scaleless bony fishes having long tactile barbels",
+        link: "Merriam-Webster",
+        image:
+          "https://i.pinimg.com/564x/d0/a7/f7/d0a7f74fb6bade0c3f59a83aa97c4f12.jpg",
+      },
+      {
+        id: 20,
+        name: "eel",
+        description:
+          "voracious elongate snakelike bony fishes that have a smooth slimy skin, lack pelvic fins, and have the median fins confluent around the tail",
+        link: "Merriam-Webster",
+        image:
+          "https://i.pinimg.com/564x/09/c4/c3/09c4c315670b4ff266efd6f22887bfd9.jpg",
+
+      },
+      {
+        id: 21,
+        name: "goatfish",
+        description:
+          "medium-sized often brightly colored bony fishes having two long barbels under the chin, and elongate body, and two widely separated dorsal fins",
+        link: "Merriam-Webster",
+        image:
+          "https://i.pinimg.com/564x/5f/16/53/5f1653dd1d574a589c91a83aa7fbef78.jpg",
+          
+      },
+      {
+        id: 22,
+        name: "herring",
+        description:
+          "soft-finned bony fishes that have a laterally compressed body and a forked tail and usually occur in schools",
+        link: "Merriam-Webster",
+        image:
+          "https://i.pinimg.com/564x/89/3a/4b/893a4ba1b86776ea4b9b803ac131f952.jpg",
+          
+      },
+      {
+        id: 23,
+        name: "mullet",
+        description:
+          "chiefly marine bony fishes with an elongate rather stout body",
+        link: "Merriam-Webster",
+        image:
+          "https://i.pinimg.com/564x/0f/a8/44/0fa8446f4f62d3746cbf07bd69340df7.jpg",
+          
+      },
+      {
+        id: 24,
+        name: "perch",
+        description:
+          "a small European freshwater bony fish",
+        link: "Merriam-Webster",
+        image:
+          "https://i.pinimg.com/564x/06/55/5d/06555d05d76d69b0a81a0b1afd2d78c2.jpg",
+          
+      },
+      {
+        id: 25,
+        name: "pike",
+        description:
+          "a large elongate long-snouted freshwater bony fish  valued for food and sport and widely distributed in cooler parts of the northern hemisphere",
+        link: "Merriam-Webster",
+        image:
+          "https://i.pinimg.com/564x/52/f7/cc/52f7cc201a7ff6d58ce702296e0b5f81.jpg",
+          
+      },
+      {
+        id: 26,
+        name: "sturgeon",
+        description:
+          "usually large elongate anadromous or freshwater bony fishes which are widely distributed in the north temperate zone and whose roe is made into caviar",
+        link: "Merriam-Webster",
+        image:
+          "https://i.pinimg.com/564x/d3/eb/a7/d3eba762566b62cef102209e4ab91abd.jpg",
+          
+      },
+      {
+        id: 27,
+        name: "sunfish",
+        description:
+          "North American freshwater bony fishes  usually with a deep compressed body and metallic luster",
+        link: "Merriam-Webster",
+        image:
+          "https://i.pinimg.com/564x/bd/22/a1/bd22a10ebf86f594024eac821aebffa2.jpg",
+          
+      },
+      {
+        id: 28,
+        name: "tilefish",
+        description:
+          "marine bony fishes used as food",
+        link: "Merriam-Webster",
+        image:
+          "https://i.pinimg.com/564x/c3/ff/79/c3ff79fd04ee91a7e6825d5e1d731aeb.jpg",
+          
+      },
+      {
+        id: 29,
+        name: "weakfish",
+        description:
+          "a common marine bony fish  of the eastern coast of the U.S. that is an important sport and food fish",
+        link: "Merriam-Webster",
+        image:
+          "https://i.pinimg.com/564x/0a/60/dc/0a60dc57c80fb432d7189f76cf1861e4.jpg",
+      },
+    ],
+    scombroid: [
+      {
+        id: 30,
+        name: "bonito",
+        description:
+          "any of several swift-swimming scombroid fishes  that are typically dark blue to bluish-green with dark stripes and a silvery belly, that are intermediate in size between the related mackerel and tuna, and that are valued as food and sport fishes",
+        link: "Merriam-Webster",
+        image:
+          "https://i.pinimg.com/564x/be/f2/04/bef2041b16d2ae5d1cf1b824d5386720.jpg",
+          
+      },
+      {
+        id: 31,
+        name: "mackerel",
+        description:
+          "a scombroid fish of the North Atlantic that is green above with dark blue bars and silvery below and is a commercially important food fish",
+        link: "Merriam-Webster",
+        image:
+          "https://i.pinimg.com/564x/98/31/5e/98315ed22e9bbbeee72eb167be301ce8.jpg",
+          
+      },
+      {
+        id: 32,
+        name: "swordfish",
+        description:
+          "a very large scombroid fish that has a long swordlike beak formed by the bones of the upper jaw and is an important food and game fish",
+        link: "Merriam-Webster",
+        image:
+          "https://i.pinimg.com/564x/6f/2c/4e/6f2c4e71a9b3ba1c8320f7a7130e0018.jpg",
+          
+      },
+      {
+        id: 33,
+        name: "tuna",
+        description:
+          "any of various large vigorous scombroid fishes that are usually dark above and silvery below and include many that are valued as food or sport fishes",
+        link: "Merriam-Webster",
+        image:
+          "https://i.pinimg.com/564x/17/53/85/175385ae94f5f617147481b425f37cae.jpg",
+          
+      },
+    ],
+    sea: [
+      {
+        id: 34,
+        name: "bluefish",
+        description:
+          "a blue-coloured sea fish that is caught for sport and food",
+        link: "Oxford Dictionary",
+        image:
+          "hhttps://i.pinimg.com/564x/49/d1/4e/49d14e4a5b1377d4e2db197cfb9ff771.jpg",
+      },
+      {
+        id: 35,
+        name: "cod",
+        description:
+          "a large sea fish that is white inside and used for food",
+        link: "Cambridge Dictionary",
+        image:
+          "https://i.pinimg.com/564x/63/60/ad/6360ad74d5dbe5f9fac7ee273ffae605.jpg",
+      },
+      {
+        id: 36,
+        name: "flatfish",
+        description:
+          "any thin flat sea fish, such as a plaice or a sole",
+        link: "Cambridge Dictionary",
+        image:
+          "https://i.pinimg.com/564x/eb/52/a2/eb52a2235e69b3473de483d8e9c7d82c.jpg",
+          
+      },
+      {
+        id: 37,
+        name: "flounder",
+        description:
+          "a flat sea fish that can be eaten",
+        link: "Cambridge Dictionary",
+        image:
+          "https://i.pinimg.com/564x/15/c1/63/15c1637f29a5e35b37c99e1d9f0471fb.jpg",
+      },
+      {
+        id: 38,
+        name: "hake",
+        description:
+          "a large sea fish that is used for food",
+        link: "Oxford Dictionary",
+        image:
+          "https://i.pinimg.com/736x/a8/82/2c/a8822c0b4f6132addc3e66e40e26ceaa.jpg",
+      },
+      {
+        id: 39,
+        name: "halibut",
+        description:
+          "a large flat sea fish that is used for food",
+        link: "Oxford Dictionary",
+        image:
+          "https://i.pinimg.com/564x/cf/d6/e4/cfd6e4ce9d5584aa4ce64287a9f5fffd.jpg",
+      },
+      {
+        id: 40,
+        name: "jewfish",
+        description:
+          "different kinds of large fish that live in warm or tropical seas",
+        link: "Cambridge Dictionary",
+        image:
+          "https://i.pinimg.com/564x/3c/7d/20/3c7d20da9e05192ece0b5a04f352f394.jpg",
+      },
+      {
+        id: 41,
+        name: "plaice",
+        description:
+          "a sea fish with a flat, circular body, or its flesh eaten as food",
+        link: "Cambridge Dictionary",
+        image:
+          "https://i.pinimg.com/564x/85/66/72/85667200c8b622afd213bfcab1c8b04c.jpg",
+      },
+      {
+        id: 42,
+        name: "salmon",
+        description:
+          "a medium-sized silver-coloured fish that lives in the sea oand swims up rivers to produce its eggs",
+        link: "Cambridge Dictionary",
+        image:
+          "https://i.pinimg.com/564x/5a/7b/e2/5a7be215cf4d4aeef737b15c437765e2.jpg",
+      },
+      {
+        id: 43,
+        name: "snapper",
+        description:
+          "active carnivorous fishes of warm seas important as food and often as sport fishes",
+        link: "Cambridge Dictionary",
+        image:
+          "https://i.pinimg.com/564x/19/ec/2e/19ec2e7e250b4ea6cbadef6748e6ae36.jpg",
+      },
+      {
+        id: 44,
+        name: "whiting",
+        description:
+          "a small sea fish that is white inside and used for food",
+        link: "Oxford Dictionary",
+        image:
+          "https://i.pinimg.com/564x/83/dc/e5/83dce52f2c476279c57a192610116c53.jpg",
       },
     ],
   },
   Reptiles: {
-    small: [
+    snake: [
       {
         id: 1,
-        name: "reptile",
+        name: "anaconda",
         description:
-          "any of a genus of tropical American rodents about the size of a rabbit",
+          "a large South American snake that curls around a live animal and crushes it to kill it for food",
+        link: "Cambridge Dictionary",
+        image:
+          "https://i.pinimg.com/564x/62/c7/d2/62c7d2496b85bb638e6dc3bbc4f72b83.jpg",
+      },
+      {
+        id: 2,
+        name: "bandy - bandy",
+        description:
+          "a common poisonous ringed snake of Australia with a mouth so small as to be incapable of biting a person",
         link: "Merriam-Webster",
         image:
-          "https://animals.net/wp-content/uploads/2019/09/Agouti-5-650x425.jpg",
+          "https://i.pinimg.com/564x/61/04/9d/61049d8d591fefcd9f530431cf6ad93e.jpg",
+      },
+      {
+        id: 3,
+        name: "black snake",
+        description:
+          "snakes that are largely black or very dark in color",
+        link: "Merriam-Webster",
+        image:
+          "https://i.pinimg.com/564x/0b/90/1a/0b901a0a18c2905233bd9ffcbbd0ff4e.jpg",
+      },
+      {
+        id: 4,
+        name: "boa",
+        description:
+          "a large, strong snake, found in South and Central America, that kills animals and birds by wrapping itself around them and crushing them",
+        link: "Cambridge Dictionary",
+        image:
+          "https://i.pinimg.com/564x/bc/7a/c9/bc7ac920a764c328e1f63557ee1e39d3.jpg",
+      },
+      {
+        id: 5,
+        name: "boomslang",
+        description:
+          "a large boigid tree snake of southern Africa variously colored green or brownish black and having retiring ways and a back-fanged mouth that render it practically harmless to humans despite its powerful venom",
+        link: "Merriam-Webster",
+        image:
+          "https://i.pinimg.com/564x/82/9e/f5/829ef56da184442594d696cf07aab5b5.jpg",
+      },
+      {
+        id: 6,
+        name: "brown snake",
+        description:
+          "Australian venomous elapid snakes ",
+        link: "Merriam-Webster",
+        image:
+          "https://i.pinimg.com/564x/35/5b/f5/355bf510d7539ab292dd50e9454d878e.jpg",
+      },
+      {
+        id: 7,
+        name: "cat snake",
+        description:
+          "a back-fanged terrestrial snake  of southern Europe and Syria",
+        link: "Merriam-Webster",
+        image:
+          "https://i.pinimg.com/564x/34/cf/7d/34cf7df60e84a303c137d73ef7adfa34.jpg",
       },
     ],
-    big: [
+    turtles: [
       {
-        id: 1,
-        name: "big reptile",
+        id: 20,
+        name: "Blanding's turtle",
         description:
-          "any of a genus of tropical American rodents about the size of a rabbit",
+          " freshwater turtle of the northeastern U.S. and Canada having a black or dark olive shell with small yellow spots",
         link: "Merriam-Webster",
         image:
-          "https://animals.net/wp-content/uploads/2019/09/Agouti-5-650x425.jpg",
+          "https://i.pinimg.com/564x/f8/82/26/f88226afdc74a430683522b86dfdd61e.jpg",
+      },
+    ],
+    crocodile: [
+      {
+        id: 26,
+        name: "American crocodile",
+        description:
+          "a tropical American crocodile whose range extends to Florida",
+        link: "Merriam-Webster",
+        image:
+          "https://i.pinimg.com/564x/3d/46/71/3d467169679406ba33f1658992444804.jpg",
+      },
+      {
+        id: 27,
+        name: "Cuban crocodile",
+        description:
+          " a small crocodile found only in the island of Cuba",
+        link: "Merriam-Webster",
+        image:
+          "https://i.pinimg.com/564x/6f/43/ba/6f43ba0c0faac33066eb63475329dd5f.jpg",
+      },
+    ],
+    alligator: [
+      {
+        id: 31,
+        name: "American alligator",
+        description:
+          "the alligator of the southeastern U.S. occasionally reaching 16 feet in length with a tough hide much sought for leather",
+        link: "Merriam-Webster",
+        image:
+          "https://i.pinimg.com/564x/76/20/e7/7620e777b92976bbc201f9989de0615b.jpg",
+      },
+      {
+        id: 32,
+        name: "Chinese alligator",
+        description:
+          "a small alligator of the Yangtze valley distinguished from the American alligator by its completely unwebbed fingers",
+        link: "Merriam-Webster",
+        image:
+          "https://i.pinimg.com/564x/94/85/d6/9485d63bca183ebd2156bda6aad7f544.jpg",
+      },
+    ],
+    lizard: [
+      {
+        id: 33,
+        name: "anole",
+        description:
+          "arboreal American lizards that have a brightly colored dewlap and the ability to change color",
+        link: "Merriam-Webster",
+        image:
+          "https://i.pinimg.com/564x/8c/c2/e0/8cc2e072f02fbb9d12f9e9243a559a5c.jpg",
       },
     ],
   },
   Amphibians: {
-    aaa: [
+    toad: [
       {
         id: 1,
-        name: "amphibian",
+        name: "arroyo toad",
         description:
-          "any of a genus of tropical American rodents about the size of a rabbit",
+          "a stocky, blunt-nosed toad  that has a dark-spotted, olive-green to light brown back, a white or buff belly, and a light-colored, V-shaped stripe across the head and eyelids and that occurs in and around streams from southwestern California to northwestern Baja California",
         link: "Merriam-Webster",
         image:
-          "https://animals.net/wp-content/uploads/2019/09/Agouti-5-650x425.jpg",
+          "https://i.pinimg.com/564x/2f/5f/b8/2f5fb8706a9558c8a4269a73596c555e.jpg",
       },
       {
         id: 2,
-        name: "amphibian 2",
+        name: "bell toad",
         description:
-          "any of a genus of tropical American rodents about the size of a rabbit",
+          "a small drab upland toad of the northwestern U.S.",
         link: "Merriam-Webster",
         image:
-          "https://animals.net/wp-content/uploads/2019/09/Agouti-5-650x425.jpg",
+          "https://i.pinimg.com/564x/85/ed/2a/85ed2a8d46a25abe750ff6bc52323e38.jpg",
       },
     ],
-    bbb: [
+    frog: [
       {
         id: 1,
-        name: "ccc",
+        name: "cricket frog",
         description:
-          "any of a genus of tropical American rodents about the size of a rabbit",
+          "a small American tree frog",
         link: "Merriam-Webster",
         image:
-          "https://animals.net/wp-content/uploads/2019/09/Agouti-5-650x425.jpg",
+          "https://i.pinimg.com/564x/27/7e/48/277e481b9b75627788bc4dc1eb75cd58.jpg",
       },
     ],
   },
